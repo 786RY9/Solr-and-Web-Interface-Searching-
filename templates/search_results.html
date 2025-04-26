@@ -1,0 +1,23 @@
+<h2>Results</h2>
+{% if results %}
+    <ul>
+        {% for result in results %}
+            <li>
+                <div>
+                    <strong>{{ result.title }}</strong><br>
+                    <em>Author: {{ result.author }}</em><br>
+                    <strong>Category:</strong> {{ result.category }}<br>
+                    <strong>Published:</strong> 
+                    {% if result.published %}
+                        Yes
+                    {% else %}
+                        No
+                    {% endif %}
+                </div>
+                <hr>
+            </li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>No results found.</p>
+{% endif %}
