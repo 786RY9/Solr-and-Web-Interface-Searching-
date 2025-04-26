@@ -76,6 +76,3 @@ Github Link: [Solr and Web Interface Searching](https://github.com/786RY9/Solr-a
 ![Search Output 3](output3.png)
 
 ---
-
-## Deliverables
-- Upload a Word file with screenshots and project description to LMS.
